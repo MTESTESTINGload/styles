@@ -1,0 +1,1875 @@
+@-moz-document domain("roblox.com") {
+/* NOTICE: THIS IS BUILT OFF MY OG 2016 THEME. YOU WILL SEE SOME REUSED ASSETS ALOT.*/
+/* help from legosavant*/
+
+/*headers*/
+ .rbx-header {
+    background:#0074bd;
+    border-bottom: 1px solid #0074bd;
+}
+.notification-stream-header {
+    background-color: #0074bd;
+    border-bottom: 1px solid #0074bd;
+    color: white;
+}
+.btr-light-theme .btr-settings-header {
+    background-color: #0074bd;
+    color: #ffffff;
+}
+
+/* fixing some broken stuff */
+.rbx-header .rbx-navbar li {
+color: #fff;
+}
+.btn-navigation-nav-robux-md, a.btn-navigation-nav-robux-md, button.btn-navigation-nav-robux-md, 
+uiblox-common-common-notification-bell-md, button.btn-uiblox-common-common-notification-bell-md, 
+.btn-navigation-nav-settings-md, a.btn-navigation-nav-settings-md, button.btn-navigation-nav-settings-md, .btn-navigation-nav-settings-md:focus, .btn-navigation-nav-settings-md:hover, a.btn-navigation-nav-settings-md:focus, a.btn-navigation-nav-settings-md:hover, button.btn-navigation-nav-settings-md:focus, button.btn-navigation-nav-settings-md:hover, 
+.btn-navigation-nav-robux-md:focus, .btn-navigation-nav-robux-md:hover, a.btn-navigation-nav-robux-md:focus, a.btn-navigation-nav-robux-md:hover, button.btn-navigation-nav-robux-md:focus, button.btn-navigation-nav-robux-md:hover, 
+.btn-navigation-nav-notification-stream-md, a.btn-navigation-nav-notification-stream-md, button.btn-navigation-nav-notification-stream-md {
+    background:#0074bd;
+}
+.rbx-header .rbx-navbar-icon-group .navbar-stream {
+ background:#0074bd;
+    border-bottom: 1px solid #0074bd;
+}
+
+.rbx-header .rbx-navbar li .nav-menu-title:focus,
+.rbx-header .rbx-navbar li .nav-menu-title:hover {
+    background-color: rgba(25, 25, 25, 0.1);
+    border-radius: 5px;
+padding: 6px 9px;
+    display: inline-block;
+}
+
+
+.light-theme .rbx-header .rbx-navbar li:hover,
+.dark-theme .rbx-header .rbx-navbar li:hover {
+    border: none;
+}
+
+/* notifs */
+.notification-red {
+    background-color: #e2231a;
+}
+
+
+.light-theme .notification-blue {
+    background-color: #00a2ff;
+}
+
+
+ul.nav:nth-child(2) > li:nth-child(1) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+ul.nav:nth-child(2) > li:nth-child(1) > a:nth-child(1)::before {
+    content: "Games";
+    font-size: 16px;
+}
+
+ul.nav:nth-child(2) > li:nth-child(2) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+ul.nav:nth-child(2) > li:nth-child(2) > a:nth-child(1)::before {
+    content: "Catalog";
+    font-size: 16px;
+}
+ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1)::before {
+    content: "Develop";
+    font-size: 16px;
+}
+ul.nav:nth-child(2) > li:nth-child(4) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+ul.nav:nth-child(2) > li:nth-child(4) > a:nth-child(1)::before {
+    content: "ROBUX";
+    font-size: 16px;
+}
+ul.nav:nth-child(2) > li:nth-child(1) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+ul.nav:nth-child(2) > li:nth-child(1) > a:nth-child(1)::before {
+    content: "Games";
+    font-size: 16px;
+}
+
+ul.nav:nth-child(2) > li:nth-child(2) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+ul.nav:nth-child(2) > li:nth-child(2) > a:nth-child(1)::before {
+    content: "Catalog";
+    font-size: 16px;
+}
+ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+ul.nav:nth-child(2) > li:nth-child(3) > a:nth-child(1)::before {
+    content: "Develop";
+    font-size: 16px;
+}
+ul.nav:nth-child(2) > li:nth-child(4) > a:nth-child(1) {
+    font-size: 0 !important;
+}
+
+
+.light-theme .dialogs .dialog-container .dialog-message-container .dialog-message {
+    background-color: #00a2ff;
+    color: #fff;
+    border-color: #00a2ff;
+}
+/* removing useless sidebar stuff */
+
+/* R$ and logo */
+.light-theme .icon-default-economy-28x28,
+.light-theme .icon-robux-28x28,
+.light-theme .icon-robux-gold-28x28,
+.light-theme .icon-robux-white {
+    background-image: url(https://svgur.com/i/GuZ.svg);
+    background-size: 56px;
+}
+
+#nav-robux-icon .icon-robux-28x28 {
+    background-position: 0 -28px;
+    background-image: url(https://raw.githubusercontent.com/anthony1x6000/ROBLOX2016stylus/80a1e55d792875c92f6a4c5e7b4ef949fa17c157/images/robux/icons.svg);
+}
+
+ .icon-default-economy-28x28,
+.icon-robux-28x28,
+.icon-robux-gold-28x28,
+ .icon-robux-white:hover {
+    background-size: 56px;
+}
+
+.dark-theme .icon-default-logo-r, .dark-theme .icon-logo-r, .dark-theme .icon-logo-r-95, .icon-default-logo-r, .icon-logo-r, .icon-logo-r-95 {
+    background-image: url(https://raw.githubusercontent.com/anthony1x6000/ROBLOX2016stylus/e7e1749ce9770fc92c27226b20627243cd8291ad/images/logo_R2016.svg);
+}
+.dark-theme .icon-default-logo, .dark-theme .icon-logo, .icon-default-logo, .icon-logo {
+     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlJPQkxPWCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgd2lkdGg9IjMyMHB4IiBoZWlnaHQ9Ijc4cHgiIHZpZXdCb3g9IjAgMCAzMjAgNzgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyMCA3ODsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNFMjIzMUE7fQoJLnN0MXtmaWxsOiNGRkZGRkY7fQoJLnN0MntmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNFMjIzMUE7fQoJLnN0M3tmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8ZyBpZD0iUk9CTE9YXzFfIj4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMzYuMywxMi4xYy0wLjQtMC40LTEtMC42LTEuNS0wLjdDMjIzLDkuNSwyMDcuNSw5LjUsMTk1LDExLjRjLTAuOSwwLjEtMS43LDAuNi0yLjEsMS40CgkJCWMtMi42LDQuMS00LjMsOC01LjcsMTIuOWMtMC4xLDAuMy0wLjEsMC42LTAuMSwwLjljMCwxNi41LDEsMzUuNSw5LDQzLjRjMC42LDAuNiwxLjMsMC45LDIuMSwwLjljMTEuNCwwLjQsMjQuMSwwLjQsMzYuMSwwCgkJCWMxLjEsMCwyLjItMC43LDIuNy0xLjdDMjQ0LjEsNTQuNCwyNDguNSwyMy4xLDIzNi4zLDEyLjF6IE0yMjEuNiw1Mi4xYy00LjIsMC4yLTkuNCwwLjEtMTMuMS0wLjFjLTAuOS02LjQtMS41LTE1LjctMC45LTIyLjYKCQkJYzMuOS0wLjMsMTEuNy0wLjMsMTQuNiwwQzIyMi45LDM1LjEsMjIyLjgsNDYuMiwyMjEuNiw1Mi4xeiIvPgoJCTxnPgoJCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMjMyLjgsMTUuOGMtMTEuNi0xLjQtMjYuMS0xLjMtMzYuMywwYy0yLDMtMy45LDcuMS01LDExYzAsMTIuOSwwLjQsMzQuMyw3LjgsMzkuNmM5LjgsMC41LDIzLjEsMC40LDMzLjksMAoJCQkJQzIzOS41LDU0LjQsMjQyLjcsMjQuMywyMzIuOCwxNS44eiBNMjI1LjIsNTUuOGMtNiwwLjMtMTQuMSwwLjMtMTkuOCwwYy0xLjMtNi43LTIuNi0yMi41LTEuMS0zMC4yYzUuNy0wLjQsMTUuNi0wLjUsMjEuMSwwCgkJCQlDMjI3LjMsMzUsMjI2LjMsNDguNywyMjUuMiw1NS44eiIvPgoJCTwvZz4KCTwvZz4KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xNjIuMSwxLjFjNy43LDAuMiwxNS42LDEuMSwyMy4zLDIuNGMxLDAuMiwxLjcsMC45LDEuNiwyYy0xLjIsMTIuOS0yLjksMzYuNS0zLjQsNDkuOWgxNi4xCgkJYzEuMiwwLDIuMSwxLjIsMi4xLDIuNGMtMC4yLDIuNi0wLjUsNS42LTEuMSw4LjRjLTAuMiwwLjgtMC44LDEuNS0xLjYsMS43Yy0xMS4xLDIuMy0yMSwzLjYtMzIuMyw1LjRjLTEuMiwwLjItMi4yLTAuNi0yLjQtMS44CgkJYy0zLjItMjYuNC00LTQ2LjgtNC4zLTY4LjNDMTYwLDIsMTYxLDEuMSwxNjIuMSwxLjF6Ii8+Cgk8cGF0aCBjbGFzcz0ic3QzIiBkPSJNMTY0LjMsNC45YzYuNCwwLjQsMTIuMSwwLjYsMTguNSwxLjZjLTEuNCwxNi40LTIuMiwzNS41LTIuOCw1MS45YzYuNywwLDEyLjgsMCwxOC4xLDAKCQljLTAuMSwyLjEtMC40LDMuOC0wLjcsNS44Yy05LjMsMi0xOS43LDMtMjkuMyw0LjdDMTY1LjIsNDcuMSwxNjQuMywyNC41LDE2NC4zLDQuOXoiLz4KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0yMzMuOCw1OS4yYzEyLjMtMTYsMzEuOC0zNi43LDQ4LjgtNDkuN2MwLjctMC41LDEuNS0wLjcsMi4zLTAuNmM4LjYsMS41LDE3LjEsNC4xLDI1LjMsOC40CgkJYzAuNywwLjQsMC43LDEuNCwwLjEsMS44Yy0yMC45LDExLjktNDEuNSwzMy41LTUxLjcsNTNjLTAuNSwwLjktMS41LDEuMy0yLjQsMWMtOC43LTIuNy0xNS41LTYuNi0yMi0xMQoJCUMyMzMuMyw2MS41LDIzMy4xLDYwLjEsMjMzLjgsNTkuMnoiLz4KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0yMzIuNiwyNi43YzYuNC0zLjQsMTQuOS03LDIxLjctOC41YzAuNy0wLjIsMS41LDAuMSwyLDAuN2MxMi43LDE1LjEsMzAuNCwyNS44LDYyLjEsMzYuNgoJCWMwLjcsMC4yLDAuOSwxLjEsMC41LDEuNmMtNi4zLDcuMS0xNS43LDE1LjEtMjMsMTkuM2MtMSwwLjYtMi4yLDAuNS0zLjItMC4xYy0yMC4xLTEyLjUtNDUtMzEuMi02MC41LTQ2LjQKCQlDMjMxLjEsMjksMjMxLjMsMjcuNCwyMzIuNiwyNi43eiIvPgoJPHBhdGggY2xhc3M9InN0MyIgZD0iTTI4NC45LDEzYy0xNS44LDExLjgtMzMuNiwzMS40LTQ1LjksNDYuNmM1LjMsMy43LDEwLjEsNi4zLDE3LjEsOC43YzguNi0xNS41LDI2LjMtMzYuNyw0Ni44LTUwCgkJQzI5Ni43LDE1LjgsMjkwLjEsMTQuMiwyODQuOSwxM3oiLz4KCTxnPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNjcuOCw0Ni4xYy00LTIuNC03LjQtNC4yLTEwLjktNmMxLjctMC45LDMuMi0xLjgsNS0yLjljMC4zLTAuMiwwLjYtMC41LDAuOC0wLjhjMS42LTMuMSwzLjItNi43LDQuMy0xMQoJCQljMC4zLTEsMC0yLjItMC43LTIuOWMtNC40LTQuNi05LjItOC45LTE1LjUtMTNjLTAuNS0wLjMtMS0wLjUtMS42LTAuNWMtMTAuNy0wLjItMjMsMC42LTM1LjIsMi40Yy0wLjksMC4xLTEuNiwwLjktMS43LDEuOAoJCQljLTEsMTEuNS0xLjksMzUuOS0xLjcsNTUuN2MwLDEuMSwwLjksMiwyLDJjMTUsMC42LDI5LjIsMC42LDQ1LjcsMGMxLDAsMi0wLjYsMi42LTEuNWMzLjQtNS44LDYuNS0xMy4xLDguNC0xOS44CgkJCUMxNjkuNiw0OC4zLDE2OSw0Ni44LDE2Ny44LDQ2LjF6IE0xNDIuNiwzMC45Yy0zLjMsMC43LTguMiwxLjYtMTEuNiwyYzAuMS0yLjMsMC4yLTQuOCwwLjUtNy42YzMuNCwwLjMsOC4zLDEuMSwxMS42LDEuNwoJCQlDMTQyLjksMjguNSwxNDIuOCwyOS45LDE0Mi42LDMwLjl6IE0xMzguNyw1NS40Yy0yLjUsMC4zLTUuOCwwLjQtNy43LDAuM2MtMC4xLTIuMS0wLjMtNS0wLjMtNy42YzIuNS0wLjUsNi4xLTEuMSw5LjMtMS42CgkJCUMxMzkuNiw0OS43LDEzOS4xLDUyLjUsMTM4LjcsNTUuNHoiLz4KCQk8Zz4KCQkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTE0OS42LDQwLjFjMy45LTEuOCw2LjgtMy4zLDkuOS01LjZjMS40LTIuNywyLjktNi40LDMuOC05LjdjLTQuMy00LjItOS42LTcuOS0xNC44LTExLjIKCQkJCWMtMTEuNC0wLjMtMjEuMywwLjctMzIuMSwyLjNjLTEsMTguNS0xLjYsMzMuNi0xLjYsNTAuNmMxNC4zLDAuNiwyNy4zLDAuNSw0Mi4zLDBjMy4zLTUuMSw2LjMtMTIuMiw4LTE3LjUKCQkJCUMxNjAuNyw0Ni4xLDE1NC45LDQyLjgsMTQ5LjYsNDAuMXogTTE0MS43LDU4LjdjLTQuNSwwLjQtOS44LDAuNC0xMy44LDAuNGMtMC4zLTQuOS0wLjQtOC43LTAuNC0xMy42YzQuOC0xLDExLTIuMywxNi44LTMuNgoJCQkJQzE0My43LDQ3LjUsMTQyLjgsNTMuMywxNDEuNyw1OC43eiBNMTQ1LjUsMzNjLTUuOSwxLjUtMTIuNywzLTE3LjksMy44YzAuMS01LjMsMC41LTEwLjIsMC44LTE1LjFjNi40LDAuNywxMi42LDEuNSwxOC4zLDIuNwoJCQkJQzE0Ni4zLDI3LjcsMTQ1LjksMzAuNCwxNDUuNSwzM3oiLz4KCQk8L2c+Cgk8L2c+Cgk8cGF0aCBjbGFzcz0ic3QzIiBkPSJNMjM2LjUsMjkuMWM0LjUtMi41LDEyLjMtNS4yLDE3LjItNi41YzEyLjgsMTQuNywyOC42LDI0LjUsNTcuNCwzNS4zYy00LjksNC44LTExLjQsMTAuMi0xNi44LDEzLjkKCQlDMjc0LjMsNTkuMywyNTIuNSw0My4zLDIzNi41LDI5LjF6Ii8+Cgk8Zz4KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTA3LjIsMTkuMWMtMC41LTEtMS40LTEuNi0yLjUtMS43Yy0xMi43LTEuMS0yOS40LDAuMS00MC45LDEuOWMtMS4xLDAuMi0yLDAuOS0yLjQsMS45CgkJCWMtMy45LDEwLjMtNi42LDIxLTguOSwzMi4zYy0wLjIsMSwwLjEsMiwwLjgsMi43YzQuNSw0LjgsMTAuNiwxMC4zLDE1LjgsMTRjMC41LDAuMywxLDAuNSwxLjYsMC42YzYuNywwLjQsMjMuNSwwLjMsMzIuMywwCgkJCWMwLjUsMCwxLjEtMC4yLDEuNS0wLjVjNC44LTMuMiw5LjQtOC44LDEyLjEtMTQuNGMwLjItMC41LDAuMy0xLDAuMy0xLjVDMTE2LjQsNDMsMTEyLjEsMjkuMSwxMDcuMiwxOS4xeiBNNzUuMiw1Mi4zCgkJCWMwLjQtNC42LDEuMy0xMi4yLDIuNC0xNi42YzMuOS0wLjMsOS40LTAuNSwxMy4yLTAuNGMwLjksNC44LDEuNSwxMi4yLDEuMywxNi44Qzg3LjEsNTIuNCw3OS44LDUyLjYsNzUuMiw1Mi4zeiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik02Ni43LDE0LjZjMC4zLDAuOSwxLjIsMS40LDIuMiwxLjNjOS43LTEuMiwyMi4zLTEuOCwzMi4xLTEuM2MwLjksMC4xLDEuOC0wLjUsMi4xLTEuNAoJCQljMC43LTIuNywxLjMtNS44LDEuNi04LjhjMC4xLTEuMS0wLjctMi4yLTEuOC0yLjJDOTAuNiwxLDc2LjYsMS45LDY1LjksMy45Yy0xLjEsMC4yLTEuOSwxLjMtMS42LDIuNQoJCQlDNjQuOCw5LjEsNjUuNywxMi4yLDY2LjcsMTQuNnoiLz4KCQk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTAwLjEsNS40Yy0wLjEsMS44LTAuNCwzLjgtMC44LDUuNGMtMTAuOC0wLjItMTkuOSwwLjMtMjkuNCwxLjVjLTAuNy0xLjctMS4zLTMuNy0xLjctNS41CgkJCUM3OC4xLDUuNCw4OS4yLDQuOCwxMDAuMSw1LjR6Ii8+CgkJPGc+CgkJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMDMuNSwyMS41Yy0xMi45LTAuOS0yNy44LDAuMi0zNy44LDEuNGMtMyw3LjctNy4zLDIyLjYtOC42LDMxYzMuOCw0LDkuMiw4LjcsMTQsMTIKCQkJCWMxMC4xLDAuNiwxOS42LDAuOCwzMS4xLDBjNC4xLTMsOC4xLTcuNCwxMC40LTEyQzExMS43LDQzLDEwOC41LDMxLDEwMy41LDIxLjV6IE05Niw1NS44Yy04LjIsMC4zLTE4LjEsMC40LTI0LjksMAoJCQkJYzAuNC03LjIsMS45LTE3LjMsMy41LTIzLjdjNS4yLTAuNiwxMy4xLTAuOSwxOS0wLjhDOTUuOSwzOC44LDk2LjMsNDkuNCw5Niw1NS44eiIvPgoJCTwvZz4KCTwvZz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNjYuMiw3Mi4zYy0xMC05LjItMTguNy0xNi44LTI3LjktMjQuNWM1LjUtMC4yLDExLjQtMC41LDE2LjktMC45YzAuNiwwLDEuMi0wLjMsMS43LTAuNwoJCQkJYzIuMS0xLjcsNS00LjYsNi44LTcuMWMwLjMtMC41LDAuNS0xLDAuMy0xLjZjLTItOC44LTUuMy0xOS4zLTEwLjEtMjguN2MtMC40LTAuNy0xLjEtMS4yLTEuOS0xLjFjLTE3LjgsMS4xLTM0LjYsMy41LTQ5LjUsNi41CgkJCQljLTAuOSwwLjItMS42LDEuMS0xLjYsMmMwLjMsMTguMiwxLjMsMzYuOSwyLjUsNTUuMmMwLjEsMSwwLjgsMS44LDEuOCwxLjljNiwwLjksMTEuOCwxLjcsMTkuOCwyLjFjMC43LDAsMS4zLTAuNywxLTEuMwoJCQkJYy0yLjctNy43LTctMjMtNy43LTI1LjdjMC43LDAsMS0wLjEsMS41LTAuMWMzLjYsNy4zLDkuMSwxNy40LDEzLDI1LjhjMC41LDEuMSwxLjUsMS43LDIuNywxLjhjOS4zLDAuMiwxOS40LTAuMiwzMC4xLTEuNwoJCQkJQzY2LjUsNzQsNjYuOSw3Mi45LDY2LjIsNzIuM3ogTTMxLjksMzIuOGMtMy41LDAuNC04LjgsMC44LTEyLjIsMWMtMC4zLTIuMi0wLjYtNS4zLTAuNy03LjVjNC4yLDAuMSw4LjUsMC4yLDEzLDAuNgoJCQkJQzMxLjksMjguOCwzMS45LDMwLjgsMzEuOSwzMi44eiIvPgoJCTwvZz4KCQk8Zz4KCQkJPHBhdGggY2xhc3M9InN0MSIgZD0iTTU0LjgsNDMuM2MxLjgtMS42LDMuOC0zLjUsNS4yLTUuN2MtMS44LTguMy00LjgtMTcuMi04LjctMjUuNkMzNS45LDEzLDE5LjMsMTUuMyw1LDE3LjkKCQkJCWMwLjYsMTkuMywxLjUsMzUsMyw1MS42YzQuNSwwLjYsNy43LDEuMSwxMi45LDEuNWMtMi41LTguOS00LjUtMTYuMi02LjMtMjUuM2MyLjQtMC4xLDQuOS0wLjIsNy41LTAuM2M2LDkuNyw5LjUsMTYuOCwxNS40LDI2LjMKCQkJCWM3LjIsMCwxMy44LTAuMiwyMC42LTAuOEM0OC4zLDYxLjQsMzkuNCw1My4xLDMwLjIsNDVDMzguOCw0NC41LDQ3LjcsNDMuOSw1NC44LDQzLjN6IE0xNi4yLDM3LjZjLTAuNy00LjktMC45LTkuNy0xLjEtMTQuNgoJCQkJYzYuOCwwLDE0LjEsMC4zLDIwLjcsMC45YzAuMiwzLjMsMC4yLDguOCwwLDEyLjJDMjkuNSwzNi42LDIyLjksMzcuMSwxNi4yLDM3LjZ6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPgo)!important;
+    background-size: 118px 30px;
+}
+.light-theme .icon-default-logo,
+.light-theme .icon-logo {
+    background-image: url(https://raw.githubusercontent.com/anthony1x6000/ROBLOX2016stylus/15ff06a608df59433976333e28ef66ff6f114bf3/images/roblox_logo2016.svg) !important;
+    background-size: 118px 30px;
+}
+/* BTR and R+ changes */
+#header .btr-nav-notif {
+    background-color: #fff!important;
+    color: #191919 !important;
+    border: 2px solid #0074bd !important;
+}
+.btr-item-card-more {
+    border-radius: 3px !important;
+    background-color: #fff !important;
+    max-width: 124px;
+    position: absolute;
+    left: 0px !important;
+    bottom: -37px;
+}
+.light-theme .icon-nav-message-btr,
+.light-theme .icon-nav-friend-btr {
+    filter: brightness(1)
+}
+
+/* i swear to god non reused code is coming */
+
+
+
+
+
+/* game cards !*/
+.game-card-container .game-card-thumb-container {
+    background-color: rgba(0, 0, 0, .1);
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+div.game-card-info,
+span.playing-counts-label:before {
+    content: title;
+}
+div.game-card-info,
+span.playing-counts-label:after {
+    content: " Playing";
+}
+
+.game-cards .game-card {
+    float: none;
+    width: 161px;
+    height: 223px;
+    padding: 0 11px 0 0;
+    display: inline-block;
+    margin-bottom: 12px;
+    vertical-align: top;
+    white-space: normal;
+}
+
+
+.game-card-container .game-card-thumb-container {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+
+ .game-card-info .info-label.icon-votes-gray {
+    background-image: url(https://web.archive.org/web/20150915203731im_/http:/www.roblox.com/images/Icons/thumbs.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+ .game-card-info .info-label.icon-playing-counts-gray {
+    display: none;
+}
+
+
+
+
+
+
+.game-card-container thumbnail-2d,
+.game-card-thumb-container {
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+
+
+ .game-card-container {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgb(25 25 25 / 30%);
+    transition: box-shadow 200ms ease;
+    border-radius: 3px;
+}
+
+/* alert */
+ .alert-info {
+    background-color: #f68806;
+    color: #fff;
+}
+
+/* code to hide the ugly arrow key*/
+.dark-theme .gotham-font .see-all-link-icon:after,
+.gotham-font.dark-theme .see-all-link-icon:after,
+.gotham-font.light-theme .see-all-link-icon:after,
+.icon-push-right-sm,
+.light-theme .gotham-font .see-all-link-icon:after {
+    visibility: hidden;
+}
+
+
+/*placeholder*/
+.rbx-left-col {
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+    background-color: #ffffff;
+}
+
+
+.section-content.remove-panel {
+    background-color: white;
+}
+
+.light-theme .section-content {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgb(25 25 25 / 30%);
+    padding: 15px;
+    position: relative;
+}
+
+.chat-main-empty .chat-disconnect .logo-tagline-chat {
+    right: 0;
+    right: calc(50% - 61px);
+    width: 122px;
+    height: 34px;
+    background-size: auto 32px;
+    position: absolute;
+    bottom: 12px;
+}
+
+
+body,
+html {
+    background-color: #F2F2F2;
+    color: #191919;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+    min-width: 320px;
+    margin-bottom: 210px;
+}
+
+.spinner {
+    background-image: url(http://web.archive.org/web/20160526052452im_/http://images.rbxcdn.com/4bed93c91f909002b1f17f05c0ce13d1.gif);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 6px auto;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*navbar*/
+.rbx-header .navbar-search .new-input-field {
+    border: 1px solid #b8b8b8;
+    color: #191919;
+    border-radius: 3px;
+}
+   .rbx-header .navbar-search .input-addon-btn .icon-common-search-sm, .rbx-header .navbar-search .input-field .icon-common-search-sm {
+   background-image: url(https://web.archive.org/web/20160229151706im_/http://static.rbxcdn.com/images/NextStyleGuide/navigation_02012016.svg);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+       background-position: 0 -112px;
+}
+
+ .rbx-header .navbar-search .new-dropdown-menu {
+    box-shadow: 0 -5px 20px rgb(25 25 25 / 15%);
+    margin: 0;
+    padding: 0;
+    min-width: 105px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+/* first custom code ig */
+
+.btn-uiblox-common-common-notification-bell-md span[class^=icon-], .btn-uiblox-common-common-notification-bell-md span[class^=icon-]:hover, a.btn-uiblox-common-common-notification-bell-md span[class^=icon-], a.btn-uiblox-common-common-notification-bell-md span[class^=icon-]:hover, button.btn-uiblox-common-common-notification-bell-md span[class^=icon-], button.btn-uiblox-common-common-notification-bell-md span[class^=icon-]:hover {
+    background-image: url(https://images.rbxcdn.com/f4000b6…-navigation_10022018.svg)!important;
+   background-position: 0 -448px!important;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+}
+}
+
+@-moz-document domain("roblox.com") {
+/* pretty sure this is useless now, but ill still replace the alert code/*
+.light-theme .btn-control-lg, 
+.light-theme .btn-alert-lg {
+    border: 1px solid transparent;
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #757575;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 100%;
+    border-radius: 5px;
+    font-family: source sans pro;
+}
+
+
+.light-theme .btn-control-lg:hover,
+.light-theme .btn-alert-lg:hover {
+    background-color: white;
+    border-color: #b8b8b8;
+    color: #757575;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: source sans pro;
+}
+
+
+
+.light-theme .btn-control-md, 
+.light-theme .btn-alert-md {
+    background-color: white;
+    border-color: #b8b8b8;
+    color: #757575;
+    border-radius: 3px;
+    padding: 7px 16px;
+    font-weight: 600;
+    font-family: source sans pro;
+}
+
+
+
+
+.light-theme .btn-control-md:hover, 
+.light-theme .btn-alert-md:hover {
+    background-color: white;
+    border-color: #b8b8b8;
+    color: #757575;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-radius: 3px;
+    padding: 7px 16px;
+    font-weight: 600;
+    font-family: source sans pro;
+}
+.light-theme .ignore-friend.btn-secondary-md {
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #191919;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+
+.light-theme .ignore-friend.btn-secondary-md:hover {
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #191919;
+    box-shadow: 0 1px 3px rgba(149, 150, 150, .74);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+
+
+
+.light-theme .btn-control-sm {
+    border: 1px solid transparent;
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #757575;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px 7px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-control-sm:hover {
+    background-color: white;
+    border-color: #b8b8b8;
+    color: #757575;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+
+
+
+
+.light-theme .btn-control-xs {
+    border: 1px solid transparent;
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #757575;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+
+
+.light-theme .btn-control-xs:hover {
+    background-color: white;
+    border-color: #b8b8b8;
+    color: #757575;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+
+
+.light-theme .btn-control-lg.disabled,
+.light-theme .btn-control-lg.disabled.active,
+.light-theme .btn-control-lg.disabled:active,
+.light-theme .btn-control-lg.disabled:focus,
+.light-theme .btn-control-lg.disabled:hover,
+.light-theme .btn-control-lg[disabled],
+.light-theme .btn-control-lg[disabled].active,
+.light-theme .btn-control-lg[disabled]:active,
+.light-theme .btn-control-lg[disabled]:focus,
+.light-theme .btn-control-lg[disabled]:hover {
+    opacity: 1;
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #B8B8B8;
+}
+
+
+.light-theme .btn-control-md.disabled,
+.light-theme .btn-control-md.disabled.active,
+.light-theme .btn-control-md.disabled:active,
+.light-theme .btn-control-md.disabled:focus,
+.light-theme .btn-control-md.disabled:hover,
+.light-theme .btn-control-md[disabled],
+.light-theme .btn-control-md[disabled].active,
+.light-theme .btn-control-md[disabled]:active,
+.light-theme .btn-control-md[disabled]:focus,
+.light-theme .btn-control-md[disabled]:hover {
+    opacity: 1;
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #B8B8B8;
+}
+
+
+
+.light-theme .btn-control-sm.disabled,
+.light-theme .btn-control-sm.disabled.active,
+.light-theme .btn-control-sm.disabled:active,
+.light-theme .btn-control-sm.disabled:focus,
+.light-theme .btn-control-sm.disabled:hover,
+.light-theme .btn-control-sm[disabled],
+.light-theme .btn-control-sm[disabled].active,
+.light-theme .btn-control-sm[disabled]:active,
+.light-theme .btn-control-sm[disabled]:focus,
+.light-theme .btn-control-sm[disabled]:hover {
+    opacity: 1;
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #B8B8B8;
+}
+
+
+
+.light-theme .btn-control-xs.disabled,
+.light-theme .btn-control-xs.disabled.active,
+.light-theme .btn-control-xs.disabled:active,
+.light-theme .btn-control-xs.disabled:focus,
+.light-theme .btn-control-xs.disabled:hover,
+.light-theme .btn-control-xs[disabled],
+.light-theme .btn-control-xs[disabled].active,
+.light-theme .btn-control-xs[disabled]:active,
+.light-theme .btn-control-xs[disabled]:focus,
+.light-theme .btn-control-xs[disabled]:hover {
+    opacity: 1;
+    background-color: #fff;
+    border-color: #B8B8B8;
+    color: #B8B8B8;
+}
+
+
+
+
+
+
+
+.light-theme .btn-cta-lg {
+    background-color: #02b757;
+    border-color: #02b757;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 100%;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-cta-lg:hover {
+    background-color: #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #3fc679;
+    cursor: pointer;
+    display: inline-block;
+
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 100%;
+    border-radius: 5px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+
+
+.light-theme .btn-cta-md {
+    border: 1px solid transparent;
+    background-color: #02b757;
+    border-color: #02b757;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 9px 9px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+
+.light-theme .btn-cta-md:hover {
+    border: 1px solid transparent;
+    background-color: #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #3fc679;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 9px 9px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+
+
+
+.light-theme .btn-cta-sm {
+    border: 1px solid transparent;
+    background-color: #02b757;
+    border-color: #02b757;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px 7px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-cta-sm:hover {
+    border: 1px solid transparent;
+    background-color: #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #3fc679;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px 7px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+.light-theme .btn-cta-xs {
+    border: 1px solid transparent;
+    background-color: #02b757;
+    border-color: #02b757;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+.light-theme .btn-cta-xs:hover {
+    border: 1px solid transparent;
+    background-color: #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #3fc679;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+/*lmao pain*/
+.light-theme .btn-cta-lg.disabled,
+.light-theme .btn-cta-lg.disabled.active,
+.light-theme .btn-cta-lg.disabled:active,
+.light-theme .btn-cta-lg.disabled:focus,
+.light-theme .btn-cta-lg.disabled:hover,
+.light-theme .btn-cta-lg[disabled],
+.light-theme .btn-cta-lg[disabled].active,
+.light-theme .btn-cta-lg[disabled]:active,
+.light-theme .btn-cta-lg[disabled]:focus,
+.light-theme .btn-cta-lg[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+
+
+
+.light-theme .btn-cta-md.disabled,
+.light-theme .btn-cta-md.disabled.active,
+.light-theme .btn-cta-md.disabled:active,
+.light-theme .btn-cta-md.disabled:focus,
+.light-theme .btn-cta-md.disabled:hover,
+.light-theme .btn-cta-md[disabled],
+.light-theme .btn-cta-md[disabled].active,
+.light-theme .btn-cta-md[disabled]:active,
+.light-theme .btn-cta-md[disabled]:focus,
+.light-theme .btn-cta-md[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+
+
+
+
+.light-theme .btn-cta-sm.disabled,
+.light-theme .btn-cta-sm.disabled.active,
+.light-theme .btn-cta-sm.disabled:active,
+.light-theme .btn-cta-sm.disabled:focus,
+.light-theme .btn-cta-sm.disabled:hover,
+.light-theme .btn-cta-sm[disabled],
+.light-theme .btn-cta-sm[disabled].active,
+.light-theme .btn-cta-sm[disabled]:active,
+.light-theme .btn-cta-sm[disabled]:focus,
+.light-theme .btn-cta-sm[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+
+
+
+.light-theme .btn-cta-xs.disabled,
+.light-theme .btn-cta-xs.disabled.active,
+.light-theme .btn-cta-xs.disabled:active,
+.light-theme .btn-cta-xs.disabled:focus,
+.light-theme .btn-cta-xs.disabled:hover,
+.light-theme .btn-cta-xs[disabled],
+.light-theme .btn-cta-xs[disabled].active,
+.light-theme .btn-cta-xs[disabled]:active,
+.light-theme .btn-cta-xs[disabled]:focus,
+.light-theme .btn-cta-xs[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+/*time to do it again but with primary*/
+.light-theme .btn-growth-lg {
+    background-color: #02b757;
+    border-color: #02b757;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 100%;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-growth-md {
+    border: 1px solid transparent;
+    background-color: #02b757;
+    border-color: #02b757;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 9px 9px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+/*cataLOG*/
+.catalog-container .catalog-results .buy-robux:hover {
+    background-color: transparent;
+    background-position: left -128px!important;
+    border-color: #007001;
+}
+/*ok back to 2016 primary*/
+.light-theme .btn-growth-sm {
+    border: 1px solid transparent;
+    background-color: #02b757;
+    border-color: #02b757;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px 7px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+.light-theme .btn-growth-xs {
+    border: 1px solid transparent;
+    background-color: #02b757;
+    border-color: #02b757;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-growth-lg:hover {
+    background-color: #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #3fc679;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 100%;
+    border-radius: 5px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+
+
+.light-theme .btn-growth-sm:hover {
+    border: 1px solid transparent;
+    background-color: #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #3fc679;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px 7px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+.light-theme .btn-growth-xs:hover {
+    border: 1px solid transparent;
+    background-color: #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #3fc679;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-growth-lg.disabled,
+.light-theme .btn-growth-lg.disabled.active,
+.light-theme .btn-growth-lg.disabled:active,
+.light-theme .btn-growth-lg.disabled:focus,
+.light-theme .btn-growth-lg.disabled:hover,
+.light-theme .btn-growth-lg[disabled],
+.light-theme .btn-growth-lg[disabled].active,
+.light-theme .btn-growth-lg[disabled]:active,
+.light-theme .btn-growth-lg[disabled]:focus,
+.light-theme .btn-growth-lg[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+
+
+.light-theme .btn-growth-md.disabled,
+.light-theme .btn-growth-md.disabled.active,
+.light-theme .btn-growth-md.disabled:active,
+.light-theme .btn-growth-md.disabled:focus,
+.light-theme .btn-growth-md.disabled:hover,
+.light-theme .btn-growth-md[disabled],
+.light-theme .btn-growth-md[disabled].active,
+.light-theme .btn-growth-md[disabled]:active,
+.light-theme .btn-growth-md[disabled]:focus,
+.light-theme .btn-growth-md[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+.light-theme .btn-growth-sm.disabled,
+.light-theme .btn-growth-sm.disabled.active,
+.light-theme .btn-growth-sm.disabled:active,
+.light-theme .btn-growth-sm.disabled:focus,
+.light-theme .btn-growth-sm.disabled:hover,
+.light-theme .btn-growth-sm[disabled],
+.light-theme .btn-growth-sm[disabled].active,
+.light-theme .btn-growth-sm[disabled]:active,
+.light-theme .btn-growth-sm[disabled]:focus,
+.light-theme .btn-growth-sm[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+.light-theme .btn-growth-xs.disabled,
+.light-theme .btn-growth-xs.disabled.active,
+.light-theme .btn-growth-xs.disabled:active,
+.light-theme .btn-growth-xs.disabled:focus,
+.light-theme .btn-growth-xs.disabled:hover,
+.light-theme .btn-growth-xs[disabled],
+.light-theme .btn-growth-xs[disabled].active,
+.light-theme .btn-growth-xs[disabled]:active,
+.light-theme .btn-growth-xs[disabled]:focus,
+.light-theme .btn-growth-xs[disabled]:hover {
+    opacity: 1;
+    background-color: #A3E2BD;
+    border-color: #A3E2BD;
+    color: #fff;
+}
+
+
+
+.light-theme .btn-secondary-lg {
+    border: 1px solid transparent;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 800;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 100%;
+    border-radius: 5px;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-secondary-lg:focus,
+.light-theme .btn-secondary-lg:hover {
+    background-color: #32b5ff;
+    border-color: #32b2ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    color: #fff;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-secondary-md {
+    border: 1px solid transparent;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 800;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 9px 9px;
+    font-size: 18px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+.light-theme .btn-secondary-md:hover {
+    background-color: #32b5ff;
+    border-color: #32b2ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    color: #fff;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+.light-theme .btn-secondary-sm {
+    border: 1px solid transparent;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 800;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px 7px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+.light-theme .btn-secondary-sm:hover {
+    background-color: #32b5ff;
+    border-color: #32b2ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    color: #fff;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+
+
+.gotham-font.light-theme .refresh-link,
+.gotham-font.light-theme .refresh-link-icon,
+.gotham-font.light-theme .refresh-link-icon:active,
+.gotham-font.light-theme .refresh-link-icon:hover,
+.gotham-font.light-theme .refresh-link-icon:link,
+.gotham-font.light-theme .refresh-link-icon:visited,
+.gotham-font.light-theme .refresh-link:active,
+.gotham-font.light-theme .refresh-link:hover,
+.gotham-font.light-theme .refresh-link:link,
+.gotham-font.light-theme .refresh-link:visited,
+.gotham-font.light-theme .see-all-link,
+.gotham-font.light-theme .see-all-link-icon,
+.gotham-font.light-theme .see-all-link-icon:active,
+.gotham-font.light-theme .see-all-link-icon:hover,
+.gotham-font.light-theme .see-all-link-icon:link,
+.gotham-font.light-theme .see-all-link-icon:visited,
+.gotham-font.light-theme .see-all-link:active,
+.gotham-font.light-theme .see-all-link:hover,
+.gotham-font.light-theme .see-all-link:link,
+.gotham-font.light-theme .see-all-link:visited,
+.gotham-font.light-theme .touch .refresh-link,
+.gotham-font.light-theme .touch .refresh-link-icon,
+.gotham-font.light-theme .touch .refresh-link-icon:active,
+.gotham-font.light-theme .touch .refresh-link-icon:hover,
+.gotham-font.light-theme .touch .refresh-link-icon:link,
+.gotham-font.light-theme .touch .refresh-link-icon:visited,
+.gotham-font.light-theme .touch .refresh-link:active,
+.gotham-font.light-theme .touch .refresh-link:hover,
+.gotham-font.light-theme .touch .refresh-link:link,
+.gotham-font.light-theme .touch .refresh-link:visited,
+.gotham-font.light-theme .touch .see-all-link,
+.gotham-font.light-theme .touch .see-all-link-icon,
+.gotham-font.light-theme .touch .see-all-link-icon:active,
+.gotham-font.light-theme .touch .see-all-link-icon:hover,
+.gotham-font.light-theme .touch .see-all-link-icon:link,
+.gotham-font.light-theme .touch .see-all-link-icon:visited,
+.gotham-font.light-theme .touch .see-all-link:active,
+.gotham-font.light-theme .touch .see-all-link:hover,
+.gotham-font.light-theme .touch .see-all-link:link,
+.gotham-font.light-theme .touch .see-all-link:visited {
+    color: white;
+    background-color: #00a2ff;
+    border-color: #00a2ff;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    padding: 7px 16px;
+    font-size: 1em;
+    line-height: 100%;
+    border-radius: 3px;
+}
+
+.light-theme .btn-secondary-xs {
+    border: 1px solid transparent;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 800;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+
+.light-theme .btn-secondary-xs:hover {
+    background-color: #32b5ff;
+    border-color: #32b2ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    color: #fff;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+
+.light-theme .btn-secondary-xs:link {
+    color: rgb(255 255 255);
+}
+
+
+button#group-join-button.btn-secondary-md.group-button.ng-binding.ng-scope {
+    border-color: #0852b7;
+    background-color: #0852b7;
+    background-image: url(https://web.archive.org/web/20150905183525im_/https://www.roblox.com/images/Buttons/StyleGuide/bg-btn-blue.png);
+    color: white;
+    border-radius: 0px;
+    padding: 1px 13px 0 13px;
+    height: 50px;
+    width: 134.08px;
+    font-size: 23px;
+    line-height: 27px;
+    background-position: left 0px;
+    font-family: source sans pro;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: normal
+}
+button#group-join-button.btn-secondary-md.group-button.ng-binding.ng-scope:hover {
+    background-color: transparent;
+    background-position: left -128px!important;
+}
+
+.light-theme .rbx-upgrade-now .btn-secondary-md {
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    color: #fff;
+
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+.light-theme .rbx-upgrade-now .btn-secondary-md:hover {
+    background-color: #32b5ff;
+    border-color: #32b2ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    color: #fff;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+.light-theme .btn-secondary-lg.disabled,
+.light-theme .btn-secondary-lg.disabled.active,
+.light-theme .btn-secondary-lg.disabled:active,
+.light-theme .btn-secondary-lg.disabled:focus,
+.light-theme .btn-secondary-lg.disabled:hover,
+.light-theme .btn-secondary-lg[disabled],
+.light-theme .btn-secondary-lg[disabled].active,
+.light-theme .btn-secondary-lg[disabled]:active,
+.light-theme .btn-secondary-lg[disabled]:focus,
+.light-theme .btn-secondary-lg[disabled]:hover {
+    opacity: 1;
+    background-color: #99DAFF;
+    border-color: #99DAFF;
+    color: #fff;
+}
+
+
+.light-theme .btn-secondary-md.disabled,
+.light-theme .btn-secondary-md.disabled.active,
+.light-theme .btn-secondary-md.disabled:active,
+.light-theme .btn-secondary-md.disabled:focus,
+.light-theme .btn-secondary-md.disabled:hover,
+.light-theme .btn-secondary-md[disabled],
+.light-theme .btn-secondary-md[disabled].active,
+.light-theme .btn-secondary-md[disabled]:active,
+.light-theme .btn-secondary-md[disabled]:focus,
+.light-theme .btn-secondary-md[disabled]:hover {
+    opacity: 1;
+    background-color: #99DAFF;
+    border-color: #99DAFF;
+    color: #fff;
+}
+
+.light-theme .btn-secondary-sm.disabled,
+.light-theme .btn-secondary-sm.disabled.active,
+.light-theme .btn-secondary-sm.disabled:active,
+.light-theme .btn-secondary-sm.disabled:focus,
+.light-theme .btn-secondary-sm.disabled:hover,
+.light-theme .btn-secondary-sm[disabled],
+.light-theme .btn-secondary-sm[disabled].active,
+.light-theme .btn-secondary-sm[disabled]:active,
+.light-theme .btn-secondary-sm[disabled]:focus,
+.light-theme .btn-secondary-sm[disabled]:hover {
+    opacity: 1;
+    background-color: #99DAFF;
+    border-color: #99DAFF;
+    color: #fff;
+}
+
+.light-theme .btn-secondary-xs.disabled,
+.light-theme .btn-secondary-xs.disabled.active,
+.light-theme .btn-secondary-xs.disabled:active,
+.light-theme .btn-secondary-xs.disabled:focus,
+.light-theme .btn-secondary-xs.disabled:hover,
+.light-theme .btn-secondary-xs[disabled],
+.light-theme .btn-secondary-xs[disabled].active,
+.light-theme .btn-secondary-xs[disabled]:active,
+.light-theme .btn-secondary-xs[disabled]:focus,
+.light-theme .btn-secondary-xs[disabled]:hover {
+    opacity: 1;
+    background-color: #99DAFF;
+    border-color: #99DAFF;
+    color: #fff;
+}
+.groups-list .create-group-button {
+    border: 1px solid transparent;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 800;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 9px 9px;
+    font-size: 18px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+.groups-list .create-group-button:hover {
+    background-color: #32b5ff;
+    border-color: #32b2ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    color: #fff;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+
+
+
+
+
+.light-theme .btn-primary-xs {
+    border: 1px solid transparent;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 800;
+    height: auto;
+    transition: all, 0.2s, ease-in-out;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 4px 4px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 3px;
+    font-family: source sans pro;
+}
+
+
+.light-theme .btn-primary-xs:hover {
+    background-color: #32b5ff;
+    border-color: #32b2ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    color: #fff;
+    font-weight: 800;
+    font-family: source sans pro;
+}
+}
+
+@-moz-document domain("roblox.com") {
+/* ~/CSS/Fonts/SourceSansPro-Google.css */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGMVNtom4QlEDNJaqqqzqdSs.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+
+.gotham-font,
+.gotham-font .h1,
+.gotham-font .h2,
+.gotham-font .h3,
+.gotham-font .h4,
+.gotham-font .h5,
+.gotham-font .h6,
+.gotham-font h1,
+.gotham-font h2,
+.gotham-font h3,
+.gotham-font h4,
+.gotham-font h5,
+.gotham-font h6,
+* {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif!important;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCmgpmuQqK2I-L2S9cF65Ek.woff) format('woff');
+}
+
+
+.chat-windows-header .chat-header-title:after {
+    content: " & Party";
+}
+
+
+
+.search-options .btn-text {
+    background-color: transparent;
+    text-align: unset;
+    padding: 0;
+    box-shadow: none;
+    border-color: transparent;
+    border-width: 0;
+    font-size: 16px;
+    font-family: source sans pro;
+}
+/* at some point learn how to rename text*/
+/*and that rename caused the robux to dissapear wow.*/
+.catalog-container .catalog-results .featured-items-heading:before {
+    visibility: visible;
+    position: absolute;
+    content: " Featured Items on ROBLOX";
+    font-weight: 400
+}
+.catalog-container .catalog-results .featured-items-heading {
+    visibility: hidden;
+    position: relative;
+}
+
+
+/*2016 font changes by the style guide, refence is in the section under*/
+/* kinda dissapointing to see*/
+.gotham-font .h1,
+.gotham-font h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #191919;
+}
+
+
+.gotham-font .h2,
+.gotham-font h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #191919;
+}
+
+
+.gotham-font h3,
+.gotham-font .h3 {
+    font-weight: 300;
+    font-size: 24px;
+    color: #191919;
+}
+
+
+
+.gotham-font .h4,
+.gotham-font h4 {
+    font-size: 21px;
+    font-weight: 400;
+    color: #191919;
+}
+
+
+.gotham-font .h5,
+.gotham-font h5 {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #191919;
+}
+
+
+.gotham-font .text-name {
+    color: #00A2FF;
+}
+
+
+
+.gotham-font .font-bold {
+    color: #191919;
+    font-weight: bold;
+}
+
+.gotham-font .text-secondary {
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.gotham-font .text-pastname {
+    font-size: 14px;
+    font-weight: 400;
+    color: #B8B8B8;
+}
+
+.gotham-font .text-pastname:hover {
+    font-size: 14px;
+    font-weight: 400;
+    color: #B8B8B8;
+}
+
+.gotham-font .text-lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.gotham-font .text-lead:hover {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.gotham-font .text-label {
+    color: #B8B8B8;
+    font-weight: 400;
+}
+
+.gotham-font .text-label:hover {
+    color: #B8B8B8;
+    font-weight: 400;
+}
+
+
+.light-theme .text-report-ads,
+gotham-font .text-report-ads {
+    font-size: 12px;
+    font-weight: 400;
+    color: #B8B8B8;
+}
+
+.light-theme .text-report-ads:hover,
+gotham-font .text-report-ads:hover {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.gotham-font .text-report {
+    font-size: 14px;
+    font-weight: 400;
+    color: #D86868;
+}
+
+
+
+.gotham-font .text-report:hover {
+    font-size: 14px;
+    font-weight: 400;
+    color: #D86868;
+}
+.gotham-font .text-error {
+    font-size: 12px;
+    font-weight: 400;
+    color: #D86868;
+}
+.gotham-font .text-error:hover {
+    font-size: 12px;
+    font-weight: 400;
+    color: #D86868;
+}
+gotham-font .text-link,
+.light-theme .text-link {
+    color: #00A2FF;
+}
+gotham-font .text-link: hover,
+.light-theme .text-link:hover {
+    color: #191919;
+}
+.light-theme .text-link,
+.light-theme .text-link.small,
+.light-theme .text-link.small:active,
+.light-theme .text-link.small:link,
+.light-theme .text-link.small:visited,
+.light-theme .text-link.xsmall,
+.light-theme .text-link.xsmall:active,
+.light-theme .text-link.xsmall:link,
+.light-theme .text-link.xsmall:visited,
+.light-theme .text-link.xxsmall,
+.light-theme .text-link.xxsmall:active,
+.light-theme .text-link.xxsmall:link,
+.light-theme .text-link.xxsmall:visited,
+.light-theme .text-link:active,
+.light-theme .text-link:hover,
+.light-theme .text-link:link,
+.light-theme .text-link:visited,
+.light-theme .text-name,
+.light-theme .text-name.small,
+.light-theme .text-name.small:active,
+.light-theme .text-name.small:link,
+.light-theme .text-name.small:visited,
+.light-theme .text-name.xsmall,
+.light-theme .text-name.xsmall:active,
+.light-theme .text-name.xsmall:link,
+.light-theme .text-name.xsmall:visited,
+.light-theme .text-name.xxsmall,
+.light-theme .text-name.xxsmall:active,
+.light-theme .text-name.xxsmall:link,
+.light-theme .text-name.xxsmall:visited,
+.light-theme .text-name:active,
+.light-theme .text-name:hover,
+.light-theme .text-name:link,
+.light-theme .text-name:visited,
+.light-theme .vlist .list-item .list-body .list-content a,
+.light-theme .vlist .list-item .list-body .list-content a.small,
+.light-theme .vlist .list-item .list-body .list-content a.small:active,
+.light-theme .vlist .list-item .list-body .list-content a.small:link,
+.light-theme .vlist .list-item .list-body .list-content a.small:visited,
+.light-theme .vlist .list-item .list-body .list-content a.xsmall,
+.light-theme .vlist .list-item .list-body .list-content a.xsmall:active,
+.light-theme .vlist .list-item .list-body .list-content a.xsmall:link,
+.light-theme .vlist .list-item .list-body .list-content a.xsmall:visited,
+.light-theme .vlist .list-item .list-body .list-content a.xxsmall,
+.light-theme .vlist .list-item .list-body .list-content a.xxsmall:active,
+.light-theme .vlist .list-item .list-body .list-content a.xxsmall:link,
+.light-theme .vlist .list-item .list-body .list-content a.xxsmall:visited,
+.light-theme .vlist .list-item .list-body .list-content a:active,
+.light-theme .vlist .list-item .list-body .list-content a:hover,
+.light-theme .vlist .list-item .list-body .list-content a:link,
+.light-theme .vlist .list-item .list-body .list-content a:visited,
+.vlist .list-item .list-body .list-content .light-theme a,
+.vlist .list-item .list-body .list-content .light-theme a.small,
+.vlist .list-item .list-body .list-content .light-theme a.small:active,
+.vlist .list-item .list-body .list-content .light-theme a.small:link,
+.vlist .list-item .list-body .list-content .light-theme a.small:visited,
+.vlist .list-item .list-body .list-content .light-theme a.xsmall,
+.vlist .list-item .list-body .list-content .light-theme a.xsmall:active,
+.vlist .list-item .list-body .list-content .light-theme a.xsmall:link,
+.vlist .list-item .list-body .list-content .light-theme a.xsmall:visited,
+.vlist .list-item .list-body .list-content .light-theme a.xxsmall,
+.vlist .list-item .list-body .list-content .light-theme a.xxsmall:active,
+.vlist .list-item .list-body .list-content .light-theme a.xxsmall:link,
+.vlist .list-item .list-body .list-content .light-theme a.xxsmall:visited,
+.vlist .list-item .list-body .list-content .light-theme a:active,
+.vlist .list-item .list-body .list-content .light-theme a:hover,
+.vlist .list-item .list-body .list-content .light-theme a:link,
+.vlist .list-item .list-body .list-content .light-theme a:visited {
+    color: #00a2ff;
+}
+
+.light-theme .text-date-hint {
+    font-size: 12px;
+    font-weight: 400;
+    color: #B8B8B8;
+}
+
+
+.light-theme .text-date-hint:hover {
+    font-size: 12px;
+    font-weight: 400;
+    color: #B8B8B8;
+}
+
+
+.light-theme .text-footer-nav {
+    color: #B8B8B8;
+    font-size: 21px;
+    font-weight: 300;
+}
+.light-theme .text-footer-nav:hover {
+    color: #00a2ff;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+
+.gotham-font .text-footer {
+    color: #B8B8B8;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+
+
+
+
+.gotham-font .text-footer:hover {
+    font-weight: 400;
+    color: #B8B8B8;
+}
+
+
+.light-theme .text-robux,
+.light-theme .text-robux:hover {
+    color: #02b757;
+    font-weight: 400;
+}
+.gotham-font .text-favorite,
+.gotham-font .text-favorite:hover {
+    color: #F6B702;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+* {
+    font-family: source sans pro;
+}
+}
+
+@-moz-document url-prefix("https://web.roblox.com/my/avatar") {
+/* avatar customiser */
+body, html {
+background-color: #fff;
+}
+
+.items-list .item-card .item-card-thumb-container::before {
+    display: inline-block !important;
+    width: auto !important;
+    content: "Wear";
+    font-size: 14px;
+	cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #0852b7;
+    background-color: #0852b7 !important;
+    background-image: url(http://static.rbxcdn.com/images/Buttons/StyleGuide/bg-btn-blue.png) !important;
+    padding: 1px 7px 0px;
+    border-radius: 0px;
+    visibility: visible !important; 
+    background-position: left -96px !important;
+    position: relative;
+    left: 79px;
+    transition: none;
+    opacity: 1 !important;
+}
+.items-list .item-card .item-card-equipped::before {
+    display: inline-block !important;
+    width: auto !important;
+    content: "Remove";
+    font-size: 14px;
+	cursor: pointer;
+    text-align: center;
+	height: 26.781px !important;
+    color: #fff;
+    border: 1px solid #0852b7;
+    background-color: #0852b7;
+    background-image: url(http://static.rbxcdn.com/images/Buttons/StyleGuide/bg-btn-blue.png);
+    padding: 1px 7px 0px;
+    vertical-align: middle;
+	background-position: left -96px;
+    position: relative;
+    left: 62px;
+	top: -1px;
+}
+}
+
+@-moz-document url-prefix("https://web.roblox.com/games") {
+#game-details-play-button-container .btn-common-play-game-lg {
+    margin: 0 auto;
+    height: 53px;
+    padding: 15px;
+    width: 215.359px !important;
+    margin-right: -7px;
+    border-radius: 5px !important;
+}
+
+/* smh this is hard doing this*/
+.icon-common-play:after {
+    visibility: visible;
+    position: relative;
+    top: 0px !important;
+    left: 0px !important;
+    content: "Play";
+    font-size: 21px !important;
+    font-weight: 400 !important;
+}
+game-lg span[class^=icon-], .btn-common-play-game-lg span[class^=icon-]:hover, a.btn-common-play-game-lg span[class^=icon-], a.btn-common-play-game-lg span[class^=icon-]:hover, button.btn-common-play-game-lg span[class^=icon-], button.btn-common-play-game-lg span[class^=icon-]:hover {
+    background-size: 0px;
+}
+
+#game-details-play-button-container {
+    display: flex;
+    min-width: 265.875px !important;
+    resize: both;
+    padding: 36px 36px !important;
+    margin-left: 0px;
+    border-top: 1px solid #B8B8B8 !important;
+    border-bottom: 1px solid #B8B8B8 !important;
+    border-radius: 0px !important;
+    margin-left: 7px !important;
+}
+
+
+/* removing follows*/
+.game-main-content.follow-button-enabled .favorite-follow-vote-share .game-follow-button-container .icon-follow-game,
+.game-main-content.follow-button-enabled .favorite-follow-vote-share .game-follow-button-container .icon-label, .game-main-content.follow-button-enabled .favorite-follow-vote-share .game-follow-button-container {
+display: none!important;
+}
+.game-main-content.follow-button-enabled .favorite-follow-vote-share .game-favorite-button-container .icon-label {
+    color: #F6B702;
+    font-size: 16px;
+    font-weight: 400;
+          margin-top: -28px;
+    margin-left: 50px;
+}
+/* how the hell do you move vote details*/
+
+/* margin top.*/ 
+.light-theme .voting-panel .users-vote .vote-details .vote-container .vote-percentage {
+    background-color: #02b757 !important;
+}
+.light-theme .voting-panel .users-vote .vote-details .vote-container .vote-background, .light-theme .voting-panel .users-vote .vote-details .vote-container .vote-background.has-votes {
+    background-color: #e27676 !important;
+}
+.light-theme .voting-panel .users-vote .vote-details .vote-numbers .count-left {
+    color: #02b757 !important;
+}
+.light-theme .voting-panel .users-vote .vote-details .vote-numbers .count-right {
+    color: #e2231a !important;
+}
+
+.voting-panel span {
+    float: none;
+    line-height: 20px;
+    font-size: 16px !important;
+}
+.vote-background.has-votes {
+    border-radius: 4px !important;
+}
+.light-theme .voting-panel .users-vote .vote-details .vote-container .vote-percentage {
+    background-color: #02b757 !important;
+    border-radius: 16px !important;
+    font-weight: lighter!important;
+}
+
+
+.voting-panel .users-vote .upvote span {
+    margin-left: -3px !important;
+  }
+
+ .voting-panel .users-vote .vote-details .vote-numbers .count-left {
+    position: relative !important;
+    left: 22px !important;
+    bottom: 31px !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
+.voting-panel .users-vote .vote-details .vote-numbers .count-right {
+    font-size: 14px !important;
+    position: relative !important;
+    left: -12px !important;
+    bottom: 31px !important;
+}
+.voting-panel .users-vote .downvote span {
+    margin-left: 2px !important;
+}
+/* i need a fix for this */
+.voting-panel .users-vote .upvote, 
+.voting-panel .users-vote .vote-details {
+margin-right: 12px;
+}
+}
+
+@-moz-document url-prefix("https://web.roblox.com/catalog") {
+body, html, 
+.catalog-container .catalog-content {
+background-color: #fff;
+}
+}
